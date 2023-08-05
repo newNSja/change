@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="change.css">
+    <title>抽出くん</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <div class="hearder-home">
+        <div class="hearder-home-character">抽出くん</div>
+    </div>
+    <div class="space-top"></div>
+
+    <!---->
+    <div class="site-size">
+
+    <!-- 入力ボックス -->
+    <p>▼ 文字を全角で入力してください ▼</p>
+    <textarea id="sentence-html"></textarea>
+
+    <!-- 抽出ボタン -->
+    <div class="button-center">
+    <button id="button-html-hiragana">ひらがなを抽出する</button>
+    <button id="button-html-katakana">カタカナを抽出する</button>
+    <button id="button-html-kanji">漢字を抽出する</button>
+    </div>
+
+    <!-- 結果 -->
+    <div class="space-result"></div>
+    <div id="resultAnnounce-html"></div>
+    <div class="result-box">
+    <div id="resultArea-html"></div>
+    </div>
+    <div class="space3"></div>
+
+    <!-- コピーボタン -->
+    <div class="button-center">
+    <button onclick="copyToClipboard()">コピーする</button>
+    </div>
+
+    <div class="space-bottom"></div>
+    <script src="change.js"></script>
+
+</div>
+</body>
+</html>

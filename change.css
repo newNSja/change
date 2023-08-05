@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(202, 202, 209);
+    color: rgb(28, 28, 28);
+    margin: 0;
+    font-size: 15px;
+}
+
+.site-size{
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* ヘッダー */
+.hearder-home{
+    width: 100%;
+    height: 70px;
+    background-color: RGB(23,23,25);
+    box-sizing: border-box; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    color: rgb(255, 255, 255);
+}
+
+.hearder-home-character{
+    text-align: center;
+    font-size: 30px;
+    margin: 11px;
+    font-family: 'Rampart One', cursive;
+}
+
+/* 空白 */
+.space-top{
+    height: 80px;
+}
+.space-result{
+    height: 50px;
+}
+
+.space3{
+    height: 4px;
+}
+
+.space-bottom{
+    height: 100px;
+}
+
+
+/* パーツ */
+
+textarea {
+	width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+button{
+    box-shadow: 4px 4px;
+    width: 100%;
+    max-width: 150px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.button-center{
+    text-align: center;
+}
+
+.result-box{
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
